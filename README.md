@@ -1,5 +1,5 @@
 # easypanel
-Easypanel - Plataforma docker - Docker compose
+Easypanel - Portal docker - Docker compose
 
 Ver en "localhost:3000"
 
