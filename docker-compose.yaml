@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+
+    easypanel:
+        image: easypanel/easypanel:latest
+        container_name: easypanel    
+        restart: unless-stopped
+        ports:
+            - "3000:3000"  
+        volumes:
+            - ./easypanel:/etc/easypanel
+            - /var/run/docker.sock:/var/run/docker.sock:ro            
